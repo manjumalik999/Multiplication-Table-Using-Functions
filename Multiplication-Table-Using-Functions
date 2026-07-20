@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+void myfun(int number){
+
+    for ( int i = 1; i <= 10 ; i++)
+    {
+        printf("%d x %d = %d\n" , number , i , number * i );
+    }
+}
+int main (){
+
+    int number = 2 ;
+    myfun(number);
+
+    return 0;
+}
